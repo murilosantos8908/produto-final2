@@ -1,5 +1,7 @@
-create schema CorridaPro;
 create schema if not exists CorridaPro;
+create database if not exists CorridaPro;
+drop database if exists CorridaPro;
+drop schema if exists CorridaPro;
 use CorridaPro;
 
 set @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;

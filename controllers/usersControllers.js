@@ -1,5 +1,6 @@
 const db = require('../db');
 const bcrypt = require('bcrypt');
+const express = require('express');
 
 exports.getAllUsers = async (req, res) => {
   try {

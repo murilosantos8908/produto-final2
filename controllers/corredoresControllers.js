@@ -1,4 +1,5 @@
 const db = require('../db');
+const express = require('express');
 
 exports.getAllCorredores = async (req, res) => {
   try {
